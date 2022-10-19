@@ -1,8 +1,8 @@
 {
   "Energyflow": {
-    "title": { "string": {} },
+    "data": "2022-07-29 22:59:55",
     "comments": {
-      "title": { "string": {} }
+      "hasMany": "Comment"
     }
   },
   "Comment": {
