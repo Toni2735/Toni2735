@@ -1,3 +1,15 @@
 {
-  "Energyflow":{}
+  "Energyflow":{
+    "date":"2022-07-29 22:59:55",
+    "data":[
+      {
+        "title": "Solar Panel 1",
+        "value": "100.02"
+      },
+      {
+        "title": "Solar Panel 2",
+        "value": "150.02"
+      }
+    ]
+  }
 }
