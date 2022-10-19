@@ -1,5 +1,5 @@
 {
-  "ModelName": {
+  "Energyflow": {
     "fieldName": {
       "<type>": [],
       "hasMany": "Model",
