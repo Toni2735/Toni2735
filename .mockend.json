@@ -1,55 +1,9 @@
 {
-  "type": "object",
-  "properties": {
-    "Energyflow": {
-      "type": "object",
-      "properties": {
-        "date": {
-          "type": "string"
-        },
-        "data": {
-          "type": "array",
-          "items": [
-            {
-              "type": "object",
-              "properties": {
-                "title": {
-                  "type": "string"
-                },
-                "value": {
-                  "type": "integer"
-                }
-              },
-              "required": [
-                "title",
-                "value"
-              ]
-            },
-            {
-              "type": "object",
-              "properties": {
-                "title": {
-                  "type": "string"
-                },
-                "value": {
-                  "type": "integer"
-                }
-              },
-              "required": [
-                "title",
-                "value"
-              ]
-            }
-          ]
-        }
-      },
-      "required": [
-        "date",
-        "data"
-      ]
+  "ModelName": {
+    "fieldName": {
+      "<type>": [],
+      "hasMany": "Model",
+      "belongsTo": "Model"
     }
-  },
-  "required": [
-    "Energyflow"
-  ]
+  }
 }
