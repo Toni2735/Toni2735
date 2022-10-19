@@ -2,6 +2,6 @@
   "date": { "string": {} },
   "Data": {
     "title": { "string": {} },
-    "value": { "integer": {} }
+    "value": { "int": {} }
   }
 }
