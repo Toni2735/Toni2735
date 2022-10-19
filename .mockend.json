@@ -1,6 +1,8 @@
 {
-  "Energyflow": {
-    "title": { "string": {} },
-    "value": { "int": { "min": 0, "max": 255 } }
+  "Fronius-API":{
+    "Energyflow": {
+      "title": { "string": {} },
+      "value": { "int": { "min": 0, "max": 255 } }
+    }
   }
 }
