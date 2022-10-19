@@ -1,8 +1,7 @@
 {
-  "Energyflow": {
-    "data": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
+  "date": { "string": {} },
+  "Data": {
+    "title": { "string": {} },
+    "value": { "integer": {} }
   }
 }
