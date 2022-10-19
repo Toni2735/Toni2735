@@ -1,15 +1,55 @@
 {
-  "Energyflow":{
-    "date":"2022-07-29 22:59:55",
-    "data":[
-      {
-        "title": "Solar Panel 1",
-        "value": "100.02"
+  "type": "object",
+  "properties": {
+    "Energyflow": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "data": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "value"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "value"
+              ]
+            }
+          ]
+        }
       },
-      {
-        "title": "Solar Panel 2",
-        "value": "150.02"
-      }
-    ]
-  }
+      "required": [
+        "date",
+        "data"
+      ]
+    }
+  },
+  "required": [
+    "Energyflow"
+  ]
 }
