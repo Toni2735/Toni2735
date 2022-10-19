@@ -1,14 +1,8 @@
 {
   "Energyflow": {
-    "data": "2022-07-29 22:59:55",
+    "data": { "string": {} },
     "comments": {
       "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
     }
   }
 }
