@@ -1,5 +1,5 @@
 {
-  "Efdata": {
+  "Pvpower": {
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
@@ -7,8 +7,8 @@
   },
   "Comment": {
     "body": { "string": {} },
-    "efdata": {
-      "belongsTo": "Efdata"
+    "pvpower": {
+      "belongsTo": "Pvpower"
     }
   }
 }
