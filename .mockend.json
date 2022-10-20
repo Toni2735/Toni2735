@@ -8,12 +8,10 @@
   },
   "Energyflow": {
     "date":{
-      "dateTime": {
         "string": [
           "10-31-2022"
         ]
-      }
-    },
+      },
     "energyflowdata": {
       "hasMany": "Energyflowdata"
     }
