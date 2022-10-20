@@ -1,5 +1,5 @@
 {
-  "EFData": {
+  "Efdata": {
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
@@ -7,8 +7,8 @@
   },
   "Comment": {
     "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
+    "efdata": {
+      "belongsTo": "Efdata"
     }
   }
 }
