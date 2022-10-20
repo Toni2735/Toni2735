@@ -1,19 +1,14 @@
 {
-  "Froniusdata": {
+  "Post": {
     "title": { "string": {} },
-    "value": { "int": { "min": 0, "max": 255 } },
-    "energyflow": {
-      "belongsTo": "Energyflow"
+    "comments": {
+      "hasMany": "Comment"
     }
   },
-  "Energyflow": {
-    "date":{
-        "string": [
-          "10-31-2022"
-        ]
-      },
-    "froniusdata": {
-      "hasMany": "Froniusdata"
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
     }
   }
 }
