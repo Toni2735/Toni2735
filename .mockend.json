@@ -1,11 +1,21 @@
 {
-  "Data": {
+  "Energyflowdata": {
     "title": { "string": {} },
-    "value": { "int": { "min": 0, "max": 255 } }
+    "value": { "int": { "min": 0, "max": 255 } },
+    "energyflow": {
+      "belongsTo": "Energyflow"
+    }
   },
   "Energyflow": {
     "date":{
-      "dateTime": "10-20-2022"
+      "dateTime": {
+        "string": [
+          "10-31-2022"
+        ]
+      }
+    },
+    "energyflowdata": {
+      "hasMany": "Energyflowdata"
     }
   }
 }
