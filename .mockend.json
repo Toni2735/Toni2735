@@ -1,5 +1,5 @@
 {
-  "Data": {
+  "EFData": {
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
